@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CoordinacionKinal"
         mc:Ignorable="d"
-        Title="Coordinacion Kinal" Height="525" Width="1020">
-    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        Title="Coordinacion Kinal" Height="525" Width="1020" Background="#2980b9">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Background="#2980b9">
         <Image x:Name="imgLogin" Source="/Recursos/imgKinal.png" HorizontalAlignment="Left" Height="100" Margin="81,6,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBox x:Name="tbUsuarioLogin" HorizontalAlignment="Left" Height="23" Margin="75,119,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
-        <PasswordBox x:Name="tbContrsenaLogin" HorizontalAlignment="Left" Height="23" Margin="75,162,0,0"   VerticalAlignment="Top" Width="120"/>
-        <TextBlock x:Name="titleUsuario" HorizontalAlignment="Left" Margin="25,119,0,0" TextWrapping="Wrap" Text="Usuario" VerticalAlignment="Top"/>
-        <TextBlock x:Name="titleContrasena" HorizontalAlignment="Left" Margin="5,162,0,0" TextWrapping="Wrap" Text="Contraseña" VerticalAlignment="Top"/>
-        <Button x:Name="btnLogin" Content="Entrar" HorizontalAlignment="Left" Margin="97,216,0,0" VerticalAlignment="Top" Width="75" Click="btnLogin_Click"/>
+        <TextBox x:Name="tbUsuarioLogin" HorizontalAlignment="Left" Height="23" Margin="75,119,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120" Background="#2980b9" BorderBrush="White" Foreground="White"/>
+        <PasswordBox x:Name="tbContrsenaLogin" HorizontalAlignment="Left" Height="23" Margin="75,162,0,0"   VerticalAlignment="Top" Width="120" Background="#2980b9" BorderBrush="White" Foreground="White"/>
+        <TextBlock x:Name="titleUsuario" HorizontalAlignment="Left" Margin="25,119,0,0" TextWrapping="Wrap" Text="Usuario" VerticalAlignment="Top" Foreground="White"/>
+        <TextBlock x:Name="titleContrasena" HorizontalAlignment="Left" Margin="5,162,0,0" TextWrapping="Wrap" Text="Contraseña" VerticalAlignment="Top" Foreground="White"/>
+        <Button x:Name="btnLogin" Content="Entrar" HorizontalAlignment="Left" Margin="97,216,0,0" VerticalAlignment="Top" Width="75" Background="#2980b9" BorderBrush="White" Foreground="White" Click="btnLogin_Click"/>
     </Grid>
 </Window>
