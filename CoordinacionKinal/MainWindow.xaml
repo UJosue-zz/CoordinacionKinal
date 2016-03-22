@@ -1,0 +1,17 @@
+﻿<Window x:Class="CoordinacionKinal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoordinacionKinal"
+        mc:Ignorable="d"
+        Title="Coordinacion Kinal" Height="525" Width="1020">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Image x:Name="imgLogin" Source="/Recursos/imgKinal.png" HorizontalAlignment="Left" Height="100" Margin="81,6,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="tbUsuarioLogin" HorizontalAlignment="Left" Height="23" Margin="75,119,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="tbContrsenaLogin" HorizontalAlignment="Left" Height="23" Margin="75,162,0,0"   VerticalAlignment="Top" Width="120"/>
+        <TextBlock x:Name="titleUsuario" HorizontalAlignment="Left" Margin="25,119,0,0" TextWrapping="Wrap" Text="Usuario" VerticalAlignment="Top"/>
+        <TextBlock x:Name="titleContrasena" HorizontalAlignment="Left" Margin="5,162,0,0" TextWrapping="Wrap" Text="Contraseña" VerticalAlignment="Top"/>
+        <Button x:Name="btnLogin" Content="Entrar" HorizontalAlignment="Left" Margin="97,216,0,0" VerticalAlignment="Top" Width="75" Click="btnLogin_Click"/>
+    </Grid>
+</Window>
