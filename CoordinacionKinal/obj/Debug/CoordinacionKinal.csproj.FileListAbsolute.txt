@@ -13,3 +13,5 @@ c:\users\josue\documents\visual studio 2015\Projects\CoordinacionKinal\Coordinac
 c:\users\josue\documents\visual studio 2015\Projects\CoordinacionKinal\CoordinacionKinal\obj\Debug\CoordinacionKinal.pdb
 c:\users\josue\documents\visual studio 2015\Projects\CoordinacionKinal\CoordinacionKinal\obj\Debug\Window1.g.cs
 c:\users\josue\documents\visual studio 2015\Projects\CoordinacionKinal\CoordinacionKinal\obj\Debug\Window1.baml
+c:\users\josue\documents\visual studio 2015\Projects\CoordinacionKinal\CoordinacionKinal\obj\Debug\Window2.g.cs
+c:\users\josue\documents\visual studio 2015\Projects\CoordinacionKinal\CoordinacionKinal\obj\Debug\Window2.baml
